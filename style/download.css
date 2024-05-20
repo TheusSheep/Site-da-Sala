@@ -31,19 +31,23 @@ body{
     background-size: contain;
 }
 
+main{
+    max-width: 950px;
+    min-width: 320px;
+    margin: auto;
+    padding: 35px;
+}
+
 section{
     background-color: var(--cor1);
     border: 5px solid var(--cor4);
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    max-width: 950px;
-    min-width: 320px;
-    margin: auto;
     padding: 20px;
 }
 
 section h1{
-    font: normal bolder 4.5em var(--font-destaque);
+    font: normal bolder 5vw var(--font-destaque);
     text-align: center;
     padding-bottom: 25px;
 }
