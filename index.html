@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="image/Logotipo Jaguar sem fundo (1).png" type="image/x-icon">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
     <title>Site da Sala</title>
 </head>
 <body>
@@ -20,18 +19,46 @@
     <nav>
         <a href="#"><i class="fa-solid fa-house"></i>Home</a>
         <a href="#"><i class="fa-solid fa-envelope"></i>Notícia</a>
-        <a href="#"><i class="fa-solid fa-download"></i>Download</a>
+        <a href="pages/download.html" rel="next"><i class="fa-solid fa-download"></i>Download</a>
         <a href="#"><i class="fa-solid fa-user"></i>Contato</a>
     </nav>
     <main>
         <section class="container">
-            <div id="caixa_mural">
-                <h2>Mural</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores facilis voluptatum fugiat unde eligendi sapiente maiores voluptatem magni accusantium sed. Quos, porro recusandae. Enim voluptatibus eum ab dolor dolorem magni. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur quod accusamus reprehenderit eligendi suscipit eaque aspernatur, nostrum corporis tenetur. Culpa porro et quis illo ut. Tempore expedita facilis quo ullam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis molestias corrupti placeat facilis, accusantium recusandae possimus explicabo incidunt error consectetur officiis aperiam nostrum dolore perspiciatis necessitatibus eius minima fugiat sunt.</p>
+            <div class="caixa_container">
+                <div class="caixa_container-text">
+                    <h2>Mural</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores facilis voluptatum fugiat unde eligendi sapiente maiores voluptatem magni accusantium sed. Quos, porro recusandae. Enim voluptatibus eum ab dolor dolorem magni. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur quod accusamus reprehenderit eligendi suscipit eaque aspernatur, nostrum corporis tenetur. Culpa porro et quis illo ut. Tempore expedita facilis quo ullam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis molestias corrupti placeat facilis, accusantium recusandae possimus explicabo incidunt error consectetur officiis aperiam nostrum dolore perspiciatis necessitatibus eius minima fugiat sunt.</p>
+                </div>
             </div>
-            <div id="caixa_agenda">
-                <h2>Agenda</h2>
-                <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSWlaBHmHtW0rwFNONdE_TreaouKCbEvuKXU9XaQGkgSXfcmBOZsEpyvXL53V9mnlUiXaAWuSHpRtsi/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" frameborder="0" width="100%" height="auto"></iframe>
+            <div class="caixa_container">
+                  <div class="caixa_container-table">
+                      <table>
+                        <Caption>
+                            <h2>Agenta</h2>
+                        </Caption>
+                        <thead>
+                            <th scope="col">Data</th>
+                            <th scope="col">Trabalho</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>16/05</td>
+                                <td>Relatório sobre o filme "Takedown"(caçada virtual)</td>
+                            </tr>
+                            <tr>
+                                <td>17/05</td>
+                                <td>Prova Paulista</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">22/05</td>
+                                <td>Trabalho de usabilidade e desing</td>
+                            </tr>
+                            <tr>
+                                <td>Trabalho de interfaces</td>
+                            </tr>
+                        </tbody>
+                      </table>
+                  </div>
             </div>
         </section>
         <article>
