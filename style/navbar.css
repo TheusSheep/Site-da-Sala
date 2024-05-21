@@ -34,16 +34,16 @@ body{
 .cabecalho{
     background-image: linear-gradient( 45deg, var(--cor3), var(--cor4));
     background-attachment: fixed;
+    border-bottom: 2px solid var(--cor5);
     position: sticky;
-    top: 0px;
-    left: 0px;
+    top: -1px;
+    left: -1px;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 5px;
-    margin-bottom: 35px;
 }
 
 .cabecalho_logo{
